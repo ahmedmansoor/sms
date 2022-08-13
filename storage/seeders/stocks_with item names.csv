@@ -1,0 +1,65 @@
+id,item_id,name,item_category_id,received_staff,remarks,status,qty
+1,1,Monitor,1,1,Initial stock,1,5
+2,2,Motherboard,1,1,Initial stock,1,5
+3,3,Central Processing Unit (CPU),1,1,Initial stock,1,5
+4,4,Graphics Processing Unit (GPU),1,1,Initial stock,1,5
+5,5,Random Access Memory (RAM),1,1,Initial stock,1,5
+6,6,Solid State Drive (SSD),1,1,Initial stock,1,5
+7,7,Hard Disk Drive (HDD),1,1,Initial stock,1,5
+8,8,Laptop,1,1,Initial stock,1,5
+9,9,Tablet,1,1,Initial stock,1,5
+10,10,Monitor stand,2,1,Initial stock,1,5
+11,11,Laptop stand,2,1,Initial stock,1,5
+12,12,Mouse,2,1,Initial stock,1,5
+13,13,Keyboard,2,1,Initial stock,1,5
+14,14,Webcam,2,1,Initial stock,1,5
+15,15,Mic,2,1,Initial stock,1,5
+16,16,Router,2,1,Initial stock,1,5
+17,17,Printer,3,1,Initial stock,1,5
+18,18,Paper shredders,3,1,Initial stock,1,5
+19,19,Scanner,3,1,Initial stock,1,5
+20,20,Photocopier,3,1,Initial stock,1,5
+21,21,Mobile phone,3,1,Initial stock,1,5
+22,22,Telephone,3,1,Initial stock,1,5
+23,23,Desk,4,1,Initial stock,1,5
+24,24,Chair,4,1,Initial stock,1,5
+25,25,Filing cabinet,4,1,Initial stock,1,5
+26,26,Bookcase,4,1,Initial stock,1,5
+27,27,Sofa,4,1,Initial stock,1,5
+28,28,Meeting table and chairs,4,1,Initial stock,1,5
+29,29,Lighting,4,1,Initial stock,1,5
+30,30,Wall art,4,1,Initial stock,1,5
+31,31,Minibar,4,1,Initial stock,1,5
+32,32,A2 paper ream,5,1,Initial stock,1,5
+33,33,A4 paper ream,5,1,Initial stock,1,5
+34,34,A5 paper ream,5,1,Initial stock,1,5
+35,35,Pens,5,1,Initial stock,1,5
+36,36,Dry erase markers,5,1,Initial stock,1,5
+37,37,Highlighters,5,1,Initial stock,1,5
+38,38,Printer ink,5,1,Initial stock,1,5
+39,39,Printer toner,5,1,Initial stock,1,5
+40,40,Staplers,5,1,Initial stock,1,5
+41,41,Staples,5,1,Initial stock,1,5
+42,42,Paper clips,5,1,Initial stock,1,5
+43,43,Push pins,5,1,Initial stock,1,5
+44,44,Envelopes (A2),5,1,Initial stock,1,5
+45,45,Envelopes (A4),5,1,Initial stock,1,5
+46,46,Envelopes (A5),5,1,Initial stock,1,5
+47,47,Business cards,5,1,Initial stock,1,5
+48,48,Notepads,5,1,Initial stock,1,5
+49,49,Stamps ,5,1,Initial stock,1,5
+50,50,Scissors,5,1,Initial stock,1,5
+51,51,Three-hole punch,5,1,Initial stock,1,5
+52,52,Batteries,5,1,Initial stock,1,5
+53,53,Binders,5,1,Initial stock,1,5
+54,54,Calculator,5,1,Initial stock,1,5
+55,55,Calendar,5,1,Initial stock,1,5
+56,56,Tape,5,1,Initial stock,1,5
+57,57,Paper trays,5,1,Initial stock,1,5
+58,58,Coffee maker,6,1,Initial stock,1,5
+59,59,Mug,6,1,Initial stock,1,5
+60,60,Coffee,6,1,Initial stock,1,5
+61,61,Tea,6,1,Initial stock,1,5
+62,62,Milk,6,1,Initial stock,1,5
+63,63,First aid,6,1,Initial stock,1,5
+64,64,Water bottle (20 ltr),6,1,Initial stock,1,5

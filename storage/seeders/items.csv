@@ -1,0 +1,65 @@
+name,item_category_id,received_by,remarks,status,qty
+Monitor,1,1,Initial stock,1,5
+Motherboard,1,1,Initial stock,1,5
+Central Processing Unit (CPU),1,1,Initial stock,1,5
+Graphics Processing Unit (GPU),1,1,Initial stock,1,5
+Random Access Memory (RAM),1,1,Initial stock,1,5
+Solid State Drive (SSD),1,1,Initial stock,1,5
+Hard Disk Drive (HDD),1,1,Initial stock,1,5
+Laptop,1,1,Initial stock,1,5
+Tablet,1,1,Initial stock,1,5
+Monitor stand,2,1,Initial stock,1,5
+Laptop stand,2,1,Initial stock,1,5
+Mouse,2,1,Initial stock,1,5
+Keyboard,2,1,Initial stock,1,5
+Webcam,2,1,Initial stock,1,5
+Mic,2,1,Initial stock,1,5
+Router,2,1,Initial stock,1,5
+Printer,3,1,Initial stock,1,5
+Paper shredders,3,1,Initial stock,1,5
+Scanner,3,1,Initial stock,1,5
+Photocopier,3,1,Initial stock,1,5
+Mobile phone,3,1,Initial stock,1,5
+Telephone,3,1,Initial stock,1,5
+Desk,4,1,Initial stock,1,5
+Chair,4,1,Initial stock,1,5
+Filing cabinet,4,1,Initial stock,1,5
+Bookcase,4,1,Initial stock,1,5
+Sofa,4,1,Initial stock,1,5
+Meeting table and chairs,4,1,Initial stock,1,5
+Lighting,4,1,Initial stock,1,5
+Wall art,4,1,Initial stock,1,5
+Minibar,4,1,Initial stock,1,5
+A2 paper ream,5,1,Initial stock,1,5
+A4 paper ream,5,1,Initial stock,1,5
+A5 paper ream,5,1,Initial stock,1,5
+Pens,5,1,Initial stock,1,5
+Dry erase markers,5,1,Initial stock,1,5
+Highlighters,5,1,Initial stock,1,5
+Printer ink,5,1,Initial stock,1,5
+Printer toner,5,1,Initial stock,1,5
+Staplers,5,1,Initial stock,1,5
+Staples,5,1,Initial stock,1,5
+Paper clips,5,1,Initial stock,1,5
+Push pins,5,1,Initial stock,1,5
+Envelopes (A2),5,1,Initial stock,1,5
+Envelopes (A4),5,1,Initial stock,1,5
+Envelopes (A5),5,1,Initial stock,1,5
+Business cards,5,1,Initial stock,1,5
+Notepads,5,1,Initial stock,1,5
+Stamps ,5,1,Initial stock,1,5
+Scissors,5,1,Initial stock,1,5
+Three-hole punch,5,1,Initial stock,1,5
+Batteries,5,1,Initial stock,1,5
+Binders,5,1,Initial stock,1,5
+Calculator,5,1,Initial stock,1,5
+Calendar,5,1,Initial stock,1,5
+Tape,5,1,Initial stock,1,5
+Paper trays,5,1,Initial stock,1,5
+Coffee maker,6,1,Initial stock,1,5
+Mug,6,1,Initial stock,1,5
+Coffee,6,1,Initial stock,1,5
+Tea,6,1,Initial stock,1,5
+Milk,6,1,Initial stock,1,5
+First aid,6,1,Initial stock,1,5
+Water bottle (20 ltr),6,1,Initial stock,1,5
