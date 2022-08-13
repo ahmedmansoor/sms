@@ -13,8 +13,12 @@ class ItemController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        if ($request->category) {
+            $items = Item::where('item_category_id', $request->category)->paginate(15);
+            return view('items-list', compact('items'));
+        }
         $items = Item::paginate(15);
         return view('items-list', compact('items'));
     }

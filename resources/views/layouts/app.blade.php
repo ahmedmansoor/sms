@@ -20,7 +20,7 @@
 <body class="font-sans antialiased">
     <div class="flex flex-row text-gray-800">
         @include('layouts.navigation')
-        <main class="main-content flex flex-col flex-grow m-5 mt-16 max-w-7xl">
+        <main class="main-content flex flex-col mx-20 flex-grow m-5 mt-16 max-w-7xl">
             <section class="relative">
                 @yield('content')
             </section>

@@ -25,16 +25,16 @@
                             </div>
                             <div class="w-full">
                                 <input id="qty" name="qty" type="number" required class="bg-gray-200 rounded-lg outline-none w-full
-                                        focus-within:outline border-none focus:outline-green-500 p-2 my-2 mt-4">
+                                        focus-within:outline border-none focus:outline-orange-500 p-2 my-2 mt-4">
                             </div>
                         </div>
                     </div>
                     <div class="modal-footer mt-5 space-x-1">
-                        <button type="submit" class="text-white bg-green-500
-                        hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 rounded-lg border
-                        border-green-200 text-sm font-medium px-5 py-2.5 focus:z-10
-                        dark:bg-green-700 dark:text-green-300 dark:border-green-500 dark:hover:text-white
-                        dark:hover:bg-green-600 dark:focus:ring-green-600">Add</button>
+                        <button type="submit" class="text-white bg-orange-500
+                        hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-200 rounded-lg border
+                        border-orange-200 text-sm font-medium px-5 py-2.5 focus:z-10
+                        dark:bg-orange-700 dark:text-orange-300 dark:border-orange-500 dark:hover:text-white
+                        dark:hover:bg-orange-600 dark:focus:ring-orange-600">Add</button>
                         <button data-modal-toggle="modalAddStock" type="button" class="text-gray-500 bg-white 
                         hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border 
                         border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 

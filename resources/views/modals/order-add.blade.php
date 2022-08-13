@@ -22,30 +22,30 @@
                         <div class="-mt-1 flex flex-col justify-between py-2 w-full">
                             <div class="flex flex-row justify-between">
                                 <label class="mt-3 text-xs text-gray-500 dark:text-gray-300">Qty</label>
-                                <span class="bg-green-200 px-2 text-sm text-green-700 p-1 rounded-md">Available:
+                                <span class="bg-orange-200 px-2 text-sm text-orange-700 p-1 rounded-md">Available:
                                     <span class="font-semibold" id="orderQty"></span>
                                 </span>
                             </div>
                             <div class="w-full">
                                 {{-- <input name="qty" type="number" required class="bg-gray-200 rounded-lg outline-none w-full
-                                        focus-within:outline  border-none focus:outline-green-500 p-2 my-2 mt-4"> --}}
+                                        focus-within:outline  border-none focus:outline-orange-500 p-2 my-2 mt-4"> --}}
                                 <input name="qty" type="number" required class="bg-gray-200 rounded-lg outline-none w-full
-                                        focus-within:outline  border-none focus:outline-green-500 p-2 my-2 mt-4">
+                                        focus-within:outline  border-none focus:outline-orange-500 p-2 my-2 mt-4">
                             </div>
                             <label class="mt-3 text-xs text-gray-500 dark:text-gray-300">Remarks</label>
                             <div class="w-full">
                                 <input name="remarks" required placeholder="Purpose" class="bg-gray-200 rounded-lg outline-none w-full
-                                        focus-within:outline  border-none focus:outline-green-500 p-2 my-2 mt-4">
+                                        focus-within:outline  border-none focus:outline-orange-500 p-2 my-2 mt-4">
                             </div>
                         </div>
 
                     </div>
                     <div class="modal-footer mt-5 space-x-1">
-                        <button type="submit" class="text-white bg-green-500
-                        hover:bg-green-600 focus:ring-4 focus:outline-none focus:ring-green-200 rounded-lg border
-                        border-green-200 text-sm font-medium px-5 py-2.5 focus:z-10
-                        dark:bg-green-700 dark:text-green-300 dark:border-green-500 dark:hover:text-white
-                        dark:hover:bg-green-600 dark:focus:ring-green-600">Order</button>
+                        <button type="submit" class="text-white bg-orange-500
+                        hover:bg-orange-600 focus:ring-4 focus:outline-none focus:ring-orange-200 rounded-lg border
+                        border-orange-200 text-sm font-medium px-5 py-2.5 focus:z-10
+                        dark:bg-orange-700 dark:text-orange-300 dark:border-orange-500 dark:hover:text-white
+                        dark:hover:bg-orange-600 dark:focus:ring-orange-600">Order</button>
                         <button data-modal-toggle="modalPlaceOrder" type="button" class="text-gray-500 bg-white 
                         hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border 
                         border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 
