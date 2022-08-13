@@ -59,7 +59,7 @@
                         </a>
                     </li>
 
-                    @role('super-admin|admin|inventory-clerk')
+                    @role('super-admin|inventory-clerk')
                     <li>
                         <a href=" {{ route('orders.index') }}" class="{{(\Route::current()->getName() == 'orders.index') ? 'dark:shadow w-full
                     flex items-center p-2 text-orange-500 bg-orange-100 dark:border-gray-600 
@@ -77,7 +77,6 @@
                     @endrole
                 </ul>
             </nav>
-
         </header>
     </section>
 </aside>

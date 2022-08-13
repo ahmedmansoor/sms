@@ -1,2 +1,5 @@
 name,section_id,position,mobile,status,email,password
 Ahmed Mansoor,1,Web Developer,9134183,1,ahmed.mansoor@finance.gov.mv,Minions321*
+Supervisor,1,Supervisor,9999111,2,supervisor@finance.gov.mv,Admin321*
+Clerk,2,Inventory Clerk,8888222,3,clerk@finance.gov.vm,Admin321*
+User,1,User,1111222,4,user@finance.gov.mv,Admin321*
