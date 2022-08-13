@@ -36,6 +36,7 @@ class OrderController extends Controller
 
             $requestsCount = Order::where('status', '=', Order::AUTHORISED_STATUS)
                 ->where('section_id', $section->id)->count();
+
             $ordersCount = Order::where('status', '=', Order::APPROVED_STATUS)
                 ->where('section_id', $section->id)->count();
 
