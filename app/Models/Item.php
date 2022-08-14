@@ -17,9 +17,19 @@ class Item extends Model
      * @var array<int, string>
      */
     protected $fillable = [
-        'item_category_id',
         'name',
+        'item_category_id',
+        'brand',
+        'qty',
+        'status',
+        'image',
+        'remarks',
+        'received_by',
     ];
+
+    //status column values
+    public const AVAILABLE_STATUS = 1;
+    public const HOLD_STATUS = 2;
 
     public function category()
     {

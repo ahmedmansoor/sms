@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\StoreStockrRequest;
+use App\Http\Requests\StoreItemRequest;
+use App\Http\Requests\StoreStockRequest;
 use App\Models\Item;
 use Illuminate\Http\Request;
 
@@ -19,7 +20,7 @@ class ItemController extends Controller
             $items = Item::where('item_category_id', $request->category)->paginate(15);
             return view('items-list', compact('items'));
         }
-        $items = Item::paginate(15);
+        $items = Item::orderBy('created_at', 'desc')->paginate(15);
         return view('items-list', compact('items'));
     }
 
@@ -39,9 +40,19 @@ class ItemController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreItemRequest $request)
     {
-        //
+        Item::create([
+            'name' => $request->name,
+            'item_category_id' => $request->item_category_id,
+            'brand' => $request->brand,
+            'qty' => $request->qty,
+            'remarks' => $request->remarks,
+            'received_by' => auth()->user()->id,
+            'status' => Item::AVAILABLE_STATUS,
+        ]);
+
+        return back()->with('success', 'New item added.');
     }
 
     /**
@@ -50,7 +61,7 @@ class ItemController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function stock(StoreStockrRequest $request)
+    public function stock(StoreStockRequest $request)
     {
         $item = Item::where('id', '=', $request->input('id'))->first();
         $qtyAdded = $request->input('qty') + $item->qty;

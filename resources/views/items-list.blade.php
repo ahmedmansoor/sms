@@ -9,12 +9,12 @@
 
 <div class="flex flex-row justify-between">
     <div>
-        {{-- <button class="text-white bg-orange-500 
+        <button data-modal-toggle="modalAddItem" type="button" class="text-white bg-orange-500 
                     hover:bg-opacity-80 p-2  text-sm px-3 rounded-md" type="submit">
             <span>
                 New Item
             </span>
-        </button> --}}
+        </button>
     </div>
     <div class="flex space-x-2">
         <form method="GET">
@@ -116,7 +116,7 @@
                 </th>
             </tr>
         </thead>
-        @foreach($items->sortByDesc('created_at') as $item)
+        @foreach($items as $item)
         <td class="px-6 py-2">{{ $item->name }}</td>
         {{-- <td class="px-6 py-2">{{ $item->brand}}</td> --}}
         <td class="px-6 py-2">{{ $item->category->name }}</td>
@@ -159,6 +159,7 @@
     {{ $items->links() }}
 </div>
 
+@include('modals.item-add')
 @include('modals.stock-add')
 @include('modals.order-add')
 
