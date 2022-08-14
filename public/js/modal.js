@@ -1,16 +1,14 @@
-// edit User details
 var modalAddStock = document.getElementById('modalAddStock');
 function btnModalAddStock(id, name) {
-
-    $id = document.getElementById('id');
+    // console.log(id, name);
+    $id = document.getElementById('itemId');
     $id.value = id;
-
-    $name = document.getElementById('name');
-    $name.value = name; 
     
+    $name = document.getElementById('itemName');
+    $name.value = name; 
 }
 
-// edit User details
+
 var modalPlaceOrder = document.getElementById('modalPlaceOrder');
 function btnModalPlaceOrder(id, name, qty) {
 

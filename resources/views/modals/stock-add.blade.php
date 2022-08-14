@@ -13,11 +13,11 @@
                 <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Enter New Stock</h3>
                 <form role="form" action="{{ route('items.stock') }}" method="POST" enctype="multipart/form-data">
                     {{ csrf_field() }}
-                    <input id="id" hidden type="text" name="id">
+                    <input id="itemId" hidden type="text" name="id">
                     <div class="modal-body divide-y divide-slate-200">
                         <div class="-mt-1 flex space-y-1 flex-col justify-between py-2 w-full">
                             <label class="mt-3 text-xs text-gray-500 dark:text-gray-300">Name</label>
-                            <input id="name" name="name" readonly class="bg-white rounded-lg outline-none w-full">
+                            <input id="itemName" name="name" readonly class="bg-white rounded-lg outline-none w-full">
                         </div>
                         <div class="-mt-1 flex flex-col justify-between py-2 w-full">
                             <div class="flex flex-row justify-between">

@@ -21,8 +21,6 @@ class OrderController extends Controller
 
         $departments = Department::where('id', '<>', '')->pluck('name', 'id')->toArray();
 
-
-        // get seleceted Soe
         if ($request->department_id) {
             $section = Section::where('department_id', $request->department_id)->first();
 
